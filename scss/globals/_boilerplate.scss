@@ -1,0 +1,45 @@
+@use "../util" as u;
+
+html{
+  box-sizing: border-box;
+  font-size: 100%;
+}
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: u.$font-roboto;
+  background-color: var(--white);
+  color: var(--gray-700);
+}
+li{
+  list-style: none;
+}
+/*********** services ***********/
+section {
+  padding: 5rem 0;
+}
+
+section h2.h2-heading {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-family: u.$font-dmserif;
+  color: var(--gray-200);
+}
+
+section h3.h3-heading {
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-style: italic;
+  font-family: u.$font-dmserif;
+  color: var(--gray-500);
+}
+section h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-style: italic;
+  font-family: u.$font-dmserif;
+}
+/*********** services ***********/

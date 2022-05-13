@@ -1,0 +1,32 @@
+@use "../util" as u;
+
+.header {
+  //background-image: url("../images/girl-archsera.png");
+  //background-image: url("../images/girl-parodisme.png");
+  background-image: url("../images/girl-aluvemskrew.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}
+.header .container {
+  padding-top: 60vh;
+}
+.header h1 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+.header h2 {
+  font-size: 3rem;
+  margin-bottom: 4rem;
+}
+@media(max-width:991.98px) {
+
+}
+
+@media(min-width:992px) {
+
+}
+
